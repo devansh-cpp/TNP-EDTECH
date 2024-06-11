@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TNP Officer</title>
+    <link href="./output.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body style="padding: 0; margin: 0;">
+    
+    <div class="nav-items">
+        <div class="flex flex-col md:flex-row flex-wrap justify-between items-center">
+            <div class="flex-1 p-2 md:p-4">
+                <img src="/assets/logo/tnp logo.png" class="rounded-full h-10 mr-0 md:mr-10" alt="" srcset="">
+            </div>
+            
+            <div class="flex-1 md:flex-2 p-2 md:p-4 font-bold flex justify-center md:justify-start space-x-2 md:space-x-4">         
+                <a href="Home" class="pr-4">Home</a>
+                <a href="Home" class="pr-4">Learn</a>
+                <a href="Home" class="pr-4">Courses</a>
+                <a href="Home" class="pr-4">Career</a>
+                <a href="Home" class="pr-4">Jobs</a>
+                <a href="Home" class="pr-4">Contact</a>
+                <a href=""><button class="bg-blue-950 text-white w-16 p-1 rounded mr-0 md:mr-9">Sign In</button></a>
+            </div> 
+    
+            <div class="flex-1 p-2 md:p-4">
+                <input type="text" placeholder="Write here..." name="text" class="w-full md:w-auto float-end input rounded-lg outline outline-2 outline-[#103059] border-0 font-sans bg-[#e2e2e2] outline-offset-3 px-4 py-2 transition duration-200 focus:outline-offset-5 focus:bg-white">
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+            <img class="object-cover object-center rounded" alt="hero" src="/assets/hero.png">
+          </div>
+          <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <h1 class="title-font  sm:text-4xl text-4xl mb-4 font-extrabold text-[#103059]">Internships, learning, 
+              <br class="hidden lg:inline-block">assessments 
+              <br class="hidden lg:inline-block">unlock your potential with us!
+            </h1>
+            <h2>
+                <button class="relative group">
+                    <span class="actual-text text-transparent uppercase tracking-widest font-arial relative inline-block text-2xl stroke-[1px] stroke-slate-400 group-hover:invisible">
+                      &nbsp;JAva Programming&nbsp;
+                    </span>
+                    <span aria-hidden="true" class="hover-text absolute inset-0 overflow-hidden box-border text-2xl tracking-widest font-arial text-[#103059] stroke-[1px] stroke-[#103059] w-0 border-r-[6px] border-[#103059] transition-all duration-500 group-hover:w-full group-hover:visible">
+                      &nbsp;java Programming - Full Stack&nbsp;
+                    </span>
+                  </button>
+                  
+            </h2>
+             <div class="flex justify-center">
+              <button class="inline-flex text-white bg-[#103059] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Explore New Batches</button>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!--Community of Students-->      
+
+      <div class="bg-gradient-custom p-10 text-center font-bold text-white "> 
+        <h2 class="text-2xl">Vast Community of Students</h2>
+        <div class="counter text-white" id="counter">0</div>
+        <h2>Members</h2>
+        
+<div class="flex justify-center ">
+<span class="[&>svg]:h-5 [&>svg]:w-5 p-2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 448 512">
+              <path
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+            </svg>
+          </span>
+<!-- Linkedin -->
+<span class="[&>svg]:h-5 [&>svg]:w-5 p-2">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      viewBox="0 0 448 512">
+      <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+      <path
+        d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+    </svg>
+</span>
+<!-- Telegram -->
+<span class="[&>svg]:h-5 [&>svg]:w-5 p-2">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      viewBox="0 0 496 512">
+      <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+      <path
+        d="M248 8C111 8 0 119 0 256S111 504 248 504 496 393 496 256 385 8 248 8zM363 176.7c-3.7 39.2-19.9 134.4-28.1 178.3-3.5 18.6-10.3 24.8-16.9 25.4-14.4 1.3-25.3-9.5-39.3-18.7-21.8-14.3-34.2-23.2-55.3-37.2-24.5-16.1-8.6-25 5.3-39.5 3.7-3.8 67.1-61.5 68.3-66.7 .2-.7 .3-3.1-1.2-4.4s-3.6-.8-5.1-.5q-3.3 .7-104.6 69.1-14.8 10.2-26.9 9.9c-8.9-.2-25.9-5-38.6-9.1-15.5-5-27.9-7.7-26.8-16.3q.8-6.7 18.5-13.7 108.4-47.2 144.6-62.3c68.9-28.6 83.2-33.6 92.5-33.8 2.1 0 6.6 .5 9.6 2.9a10.5 10.5 0 0 1 3.5 6.7A43.8 43.8 0 0 1 363 176.7z" />
+    </svg>
+  </span>
+</div>
+</div>
+
+
+<!--New Batch Announcement--->
+
+<div class=" h-auto text-center font-bold text-[#103059] p-5 "> 
+<h2>New Batch June 2024🔥</h2>
+<h1 class="text-3xl">Full Stack - Java Programming</h1>
+<p class="font-light">Start your learning today</p>
+<a href="#_" class="relative inline-flex items-center mt-4 px-4 py-1 overflow-hidden text-lg font-medium text-[#103059] border-2 border-[#103059] rounded-full hover:text-white group hover:bg-gray-50">
+    <span class="absolute left-0 block w-full h-0 transition-all bg-[#103059] opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+    <span class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+    </span>
+    <span class="relative">Explore Now</span>
+    </a>
+</div>
+ <!--Instructor Section--> 
+
+    <div class=" p-8 bg-gradient-custom h-auto text-center font-bold text-white  "> 
+    <div class="main-text p-4">
+        <div class="heading text-5xl p-3">Mentors Who Are Prepared to Assist You Promplty</div>
+        <div class="sub-heading font-light">We are prepared to support,guide and motivate you to lead and listen as you start your courses</div>
+    </div>
+
+
+    <!--Cards of Instructor-->
+    <div class="flex flex-col items-center justify-around md:flex-row">  
+    <!--Card1-->
+    <div class="container flex flex-col items-center " >
+    <div class="card bg-[#103059] text-white rounded-3xl border border-white flex flex-col items-center p-8 mb-8 w-96">
+    <img src="/assets/hero.png" class="rounded-full h-24 w-24 mb-4" alt="">
+    <h2>Rohit Gupta</h2>
+    <hr class="mt-2 w-1/2">
+    <p>Full Stack-Developer</p>
+    <span class="[&>svg]:h-5 [&>svg]:w-5 p-2">
+    <svg
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="currentColor"
+    viewBox="0 0 448 512">
+    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+    <path
+    d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+    </svg>
+    </span>
+    </div>
+    </div>
+    <!--Car1 End-->
+
+    <!--Card2-->
+    <div class="container flex flex-col items-center " >
+        <div class="card bg-[#103059] text-white rounded-3xl border border-white flex flex-col items-center p-8 mb-8 w-96">
+            <img src="/assets/hero.png" class="rounded-full h-24 w-24" alt="">
+    <h2>Rohit Gupta</h2>
+    <hr class="mt-2 w-1/2">
+    <p>Full Stack-Developer</p>
+    <span class="[&>svg]:h-5 [&>svg]:w-5 p-2">
+    <svg
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="currentColor"
+    viewBox="0 0 448 512">
+    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+    <path
+    d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+    </svg>
+    </span>
+    </div>
+    </div>
+    <!--Card2 End-->
+
+    <!--Card3-->
+    <div class="container flex flex-col items-center  " >
+        <div class="card bg-[#103059] text-white rounded-3xl border border-white flex flex-col items-center p-8 mb-8 w-96">
+            <img src="/assets/hero.png" class="rounded-full h-24 w-24" alt="">
+    <h2>Rohit Gupta</h2>
+    <hr class="mt-2 w-1/2">
+    <p>Full Stack-Developer</p>
+    <span class="[&>svg]:h-5 [&>svg]:w-5 p-2">
+    <svg
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="currentColor"
+    viewBox="0 0 448 512">
+    <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+    <path
+    d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+    </svg>
+    </span>
+    </div>
+    </div>
+    <!--Card3 End-->  
+</div>
+  </div>
+    </div>
+ </div>  
+  
+
+ <!--Promotion-->
+ <div class="main-text flex flex-wrap justify-center p-7 pb-0 text-center items-center text-[#103059]">
+    <h2 class="text-[#103059] font-bold text-3xl">What Makes </h2>
+    <img src="/assets/logo/tnp logo.png" class="w-48 p-2" alt="">
+    <h2 class="text-[#103059] font-bold text-3xl"> Stand Out For</h2>   
+ </div>
+<h2 class="text-red-700 font-bold text-3xl text-center">Skill Enhancement ?</h2>
+
+<!--Rounded Promotion-->
+<div class="flex flex-wrap justify-center mt-8">  
+    <div class="1st Img flex flex-col items-center justify-center m-2 mr-8"> 
+        <img src="https://img.freepik.com/free-vector/product-quality-concept-illustration_114360-7301.jpg?t=st=1718130583~exp=1718134183~hmac=b5d3bc9db7373eb614f861b176c3c37ef290d5f6fe3f79f98ee2b63df785dc16&w=740" class="h-28 w-28 rounded-full border border-[#103059]" alt="">
+        <h2 class="text-[#103059] font-semibold mt-2">Experts</h2>  
+    </div>
+    <div class="1st Img flex flex-col items-center justify-center m-2 mr-8"> 
+        <img src="https://img.freepik.com/free-vector/connect-jigsaw-pieces-into-shape-light-bulb_1150-35036.jpg?t=st=1718130618~exp=1718134218~hmac=365fa2808a698139279a167dae5cf09bb65339f6f06377baac055fc1514c4513&w=740" class="h-28 w-28 rounded-full border border-[#103059]" alt="">
+        <h2 class="text-[#103059] font-semibold mt-2">Customization</h2>  
+    </div>
+    <div class="1st Img flex flex-col items-center justify-center m-2 mr-8"> 
+        <img src="https://img.freepik.com/free-vector/staff-management-perspective-definition-target-orientation-teamwork-organization-business-coach-company-executive-personnel-cartoon-characters_335657-2967.jpg?t=st=1718130646~exp=1718134246~hmac=180ae2cea102e074df2ecc829470d7b6f0c5cea737fddc777aa22fc663fee7c0&w=740" class="h-28 w-28 rounded-full border border-[#103059]" alt="">
+        <h2 class="text-[#103059] font-semibold mt-2">Relevance</h2>  
+    </div>
+    <div class="1st Img flex flex-col items-center justify-center m-2 mr-8"> 
+        <img src="https://img.freepik.com/free-vector/helping-partner-concept-illustration_114360-8867.jpg?t=st=1718130671~exp=1718134271~hmac=d12becea5bbda1ef6351ac93db80534f7499b1ba7619b9e4778ba56d4b9103ab&w=740" class="h-28 w-28 rounded-full border border-[#103059]" alt="">
+        <h2 class="text-[#103059] font-semibold mt-2">Supportiveness</h2>  
+    </div>
+    <div class="1st Img flex flex-col items-center justify-center m-2 mr-8"> 
+        <img src="https://img.freepik.com/free-vector/growing-concept-illustration_114360-476.jpg?t=st=1718130707~exp=1718134307~hmac=ffb25fc1463736dcaab4fc5ecbda4c1a60b48412d1dfa25d68903a1f336d5c07&w=740" class="h-28 w-28 rounded-full border border-[#103059]" alt="">
+        <h2 class="text-[#103059] font-semibold mt-2">Success</h2>  
+    </div>
+    <div class="1st Img flex flex-col items-center justify-center m-2 mr-8"> 
+        <img src="https://img.freepik.com/free-vector/mechanism-teamwork-cartoon-characters-spinning-gears-together-coworking-collaboration-partnership-team-building-cooperation-technology_335657-2685.jpg?t=st=1718130743~exp=1718134343~hmac=409d04560913501112e1a7a25b7c20787cc295773b9b5947094f15361407e3e9&w=740" class="h-28 w-28 rounded-full border border-[#103059]" alt="">
+        <h2 class="text-[#103059] font-semibold mt-2">Adaptibilty</h2>  
+    </div>
+     
+</div>
+
+<!--Mock Test-->
+<div class="bg-[#103059] flex flex-col md:flex-row items-center justify-between ">
+    <img src="/assets/mock.png" class="hidden md:block  mr-8" alt="Image">
+
+    <div class="flex flex-col md:flex-row md:items-center md:w-2/3">
+        <div class=" p-8 md:flex md:flex-col md:mr-4">
+            <h2 class="text-white text-5xl mb-4 md:mb-0">Start your preparation with
+                <span class="animated-text text-white text-5xl " id="animatedText"></span>
+             </h2>
+            
+           <a href="https://tnpofficer.com/mock-test/">
+            <button class="bg-white border border-white text-[#103059] hover:bg-[#103059] hover:text-white  mb-10 mt-10 px-4 py-2 w-32 rounded-lg">Start Now</button>
+
+           </a>
+        </div>
+    </div>
+</div>
+
+
+<!--Testiomonial-->
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Testimonials</h1>
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 md:w-1/2 w-full">
+        <div class="h-full bg-gray-100 p-8 rounded">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+            <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+          </svg>
+          <p class="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
+          <a class="inline-flex items-center">
+            <img alt="testimonial" src="https://dummyimage.com/106x106" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+            <span class="flex-grow flex flex-col pl-4">
+              <span class="title-font font-medium text-gray-900">Holden Caulfield</span>
+              <span class="text-gray-500 text-sm">UI DEVELOPER</span>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/2 w-full">
+        <div class="h-full bg-gray-100 p-8 rounded">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+            <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+          </svg>
+          <p class="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard pabst authentic iceland.</p>
+          <a class="inline-flex items-center">
+            <img alt="testimonial" src="https://dummyimage.com/107x107" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+            <span class="flex-grow flex flex-col pl-4">
+              <span class="title-font font-medium text-gray-900">Alper Kamu</span>
+              <span class="text-gray-500 text-sm">DESIGNER</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Footer-->
+
+<footer class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+    <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <img src="/assets/logo/tnp logo.png" class="w-48 p-2" alt="">
+      </a>
+      <p class="mt-2 text-sm text-[#103059] font-semibold">Tnpofficer.com is  one of the fastest-growing websites in India. We help the Freshers- recent graduates/ postgraduates (Entry Level) to find their first job. </p>
+    </div>
+    <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+      <div class="lg:w-1/3 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Quick Links</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Privacy Policy</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Terms and Condition</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Refund Policy</a>
+          </li>
+          
+        </nav>
+      </div>
+      <div class="lg:w-1/3 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Internshiphs</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Full Stack Development</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">HR-Interns</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Digital Marketing Intern</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">UI/UX Interns</a>
+          </li>
+        </nav>
+      </div>
+      
+      <div class="lg:w-1/3 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Contact Information</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Phone : +91 8303514681</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Email : tnpforyou@gmail.com</a>
+          </li>
+          <li>
+            <a class="text-gray-600 hover:text-gray-800">Address : Greater Noida , New Delhi</a>
+          </li>
+          
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="bg-[#103059]">
+    <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+      <p class="text-white text-sm text-center sm:text-left">© 2024
+        <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-white ml-1" target="_blank">@knyttneve</a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+        <a class="text-white">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-white">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-white">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+
+   
+    
+
+    
+ <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+ 
+.bg-gradient-custom {
+  background: linear-gradient(90deg, #102F57 0%, #495B74 100%);
+}
+
+.social-icons a:hover svg {
+    fill: #0077b5; /* LinkedIn */
+}
+.social-icons a:hover:nth-child(2) svg {
+    fill: #0088cc; /* Telegram */
+}
+.social-icons a:hover:nth-child(3) svg {
+    fill: #E4405F; /* Instagram */
+}
+.counter {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.animated-text {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid orange;  
+    animation: typing 2s steps(40), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 50% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
